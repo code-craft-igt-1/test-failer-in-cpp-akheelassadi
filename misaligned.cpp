@@ -19,7 +19,7 @@ std::vector<ColorPair> generateColorMap() {
             ColorPair pair;
             pair.index = i * 5 + j;
             pair.majorColor = majorColor[i];
-            pair.minorColor = minorColor[j];
+            pair.minorColor = minorColor[i];
             colorMap.push_back(pair);
         }
     }
