@@ -49,8 +49,6 @@ string Report(const IWeatherSensor& sensor) {
             report = "Partly cloudy";
         else if (sensor.WindSpeedKMPH() > 50)
             report = "Alert, Stormy with heavy rain";
-        else if (precipitation >= 60)
-            report = "Rainy day";
     }
     return report;
 }
